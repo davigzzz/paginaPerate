@@ -251,13 +251,13 @@ nav a{
   text-decoration: none;
   transition: 0.1s;
 }
-nav a:hover, nav a:active{
+nav a:hover, nav a:focus{
   text-decoration: none;
   background: #333;
   padding-left:10px;
   color: #82ff9e;
 }
-nav:hover, nav:active{
+nav:hover, nav:focus{
   background-color: #242424;
   transform: translateX(0);
 }
