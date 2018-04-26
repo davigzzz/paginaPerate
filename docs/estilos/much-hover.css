@@ -23,6 +23,7 @@
     z-index: -1;
     transition: 0.5s 0.05s;
   }
+  .contenedor .wrapper:focus::before,
   .contenedor .wrapper:hover:before {
     opacity: 1;
     -webkit-transform: translateY(1.5rem) translateX(1.5rem);
@@ -118,16 +119,23 @@
             transform: skew(10deg) scale(1.2);
     transition: 0.25s;
   }
+
+  .contenedor .wrapper:focus,
   .contenedor .wrapper:hover {
     -webkit-transform: translateX(-1rem) translateY(-1rem) skew(-10deg);
             transform: translateX(-1rem) translateY(-1rem) skew(-10deg);
   }
+  .contenedor .wrapper:focus .card,
   .contenedor .wrapper:hover .card {
     box-shadow: 0.5rem 0.5rem 1rem rgba(0,0,0,0.2);
   }
+
+.contenedor .wrapper:focus .card:after,
   .contenedor .wrapper:hover .card:after {
     background-blend-mode: normal;
   }
+
+  .contenedor .wrapper:focus .card .fas,
   .contenedor .wrapper:hover .card .fas {
     bottom: 4rem;
     background-color: rgba(255,255,255,0.8);
