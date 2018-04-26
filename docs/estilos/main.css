@@ -188,7 +188,11 @@ header
 }
 
 /*-----------------Menu------------------*/
-
+@media screen and (max-width: 480px) {
+  .menu {
+      margin: 0;
+  }
+}
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Reem+Kufi');
 
@@ -335,6 +339,7 @@ nav:hover{
 .contenedor-redes-sociales a span.titulo-hover {
     left: 15px
 }
+
 
 
 /*----------Colores de los botones----------*/
