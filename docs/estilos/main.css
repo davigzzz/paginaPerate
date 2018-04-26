@@ -188,13 +188,6 @@ header
 }
 
 /*-----------------Menu------------------*/
-@media screen and (max-width: 480px) {
-  .menu {
-      margin: 0;
-  }
-}
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Reem+Kufi');
 
 *{
 	margin: 0px;
@@ -258,13 +251,13 @@ nav a{
   text-decoration: none;
   transition: 0.1s;
 }
-nav a:hover{
+nav a:hover, nav a:active{
   text-decoration: none;
   background: #333;
   padding-left:10px;
   color: #82ff9e;
 }
-nav:hover{
+nav:hover, nav:active{
   background-color: #242424;
   transform: translateX(0);
 }
