@@ -318,3 +318,9 @@
   -webkit-animation-name: bounceInUp;
   animation-name: bounceInUp;
 }
+
+
+.carousel-indicators{
+  z-index: 8;
+}
+
