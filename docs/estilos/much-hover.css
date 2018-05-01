@@ -4,8 +4,10 @@
     grid-template-columns: auto auto auto;
     grid-gap: 3rem;
     padding: 2rem 4rem 4rem;
+    top: 5rem;
   }
   .contenedor .wrapper {
+    
     -webkit-transform: skew(-10deg);
             transform: skew(-10deg);
     transition: 0.25s;
@@ -18,17 +20,21 @@
     width: calc(100% - 10px);
     border-radius: 40px;
     opacity: 0;
-    border: 2px solid #373f51;
+    border: 2px solid #bf17e9; /*El borde que usa la linea*/
     position: absolute;
     z-index: -1;
     transition: 0.5s 0.05s;
   }
   .contenedor .wrapper:focus::before,
   .contenedor .wrapper:hover:before {
+    content: '';
     opacity: 1;
     -webkit-transform: translateY(1.5rem) translateX(1.5rem);
             transform: translateY(1.5rem) translateX(1.5rem);
   }
+
+
+
   .contenedor .wrapper:nth-child(1) .card:after {
     content: '';
     height: 100%;
@@ -51,7 +57,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("https://images.pexels.com/photos/307008/pexels-photo-307008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://s3.amazonaws.com/kichink/items_1582121_547724_0_20171024155055_b.jpg");
     background-size: cover;
     background-color: #373f51;
     background-blend-mode: screen;
@@ -66,7 +72,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("https://images.pexels.com/photos/551650/pexels-photo-551650.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://s3.amazonaws.com/kichink/items_1646149_547724_0_20171226134124_b.jpg");
     background-size: cover;
     background-color: #373f51;
     background-blend-mode: screen;
@@ -81,7 +87,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("https://images.pexels.com/photos/378153/pexels-photo-378153.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://s3.amazonaws.com/kichink/items_1582101_547724_0_20171024153959_b.jpg");
     background-size: cover;
     background-color: #373f51;
     background-blend-mode: screen;
@@ -96,7 +102,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("https://images.pexels.com/photos/674268/pexels-photo-674268.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://s3.amazonaws.com/kichink/items_1315512_547724_20170228230310_b.jpg");
     background-size: cover;
     background-color: #373f51;
     background-blend-mode: screen;
@@ -111,7 +117,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("https://images.pexels.com/photos/307006/pexels-photo-307006.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("https://s3.amazonaws.com/kichink/items_1698583_547724_0_20180221125054_b.jpg");
     background-size: cover;
     background-color: #373f51;
     background-blend-mode: screen;
@@ -120,26 +126,30 @@
     transition: 0.25s;
   }
 
-  .contenedor .wrapper:focus,
   .contenedor .wrapper:hover {
     -webkit-transform: translateX(-1rem) translateY(-1rem) skew(-10deg);
             transform: translateX(-1rem) translateY(-1rem) skew(-10deg);
   }
-  .contenedor .wrapper:focus .card,
   .contenedor .wrapper:hover .card {
-    box-shadow: 0.5rem 0.5rem 1rem rgba(0,0,0,0.2);
+    box-shadow: 0.5rem 0.75rem 1rem rgba(224, 111, 190, 0.89);
   }
 
-.contenedor .wrapper:focus .card:after,
   .contenedor .wrapper:hover .card:after {
     background-blend-mode: normal;
   }
 
-  .contenedor .wrapper:focus .card .fas,
   .contenedor .wrapper:hover .card .fas {
     bottom: 4rem;
     background-color: rgba(255,255,255,0.8);
   }
+
+  p{
+    text-align: center;
+    left: 2rem;
+    padding: 1rem;
+    color: #e21da7
+  }
+
   .contenedor .card {
     background-color: #808080;
     border-radius: 40px;
@@ -153,6 +163,9 @@
     background-repeat: no-repeat;
     background-position: center;
   }
+
+
+
   .contenedor .card .fas {
     position: absolute;
     bottom: -1rem;
