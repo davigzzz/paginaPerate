@@ -1435,7 +1435,7 @@ footer {
 
   .mapa iframe {
     width: 100%;
-    max-height: 300px;
+    max-height: 400px;
   }
 	
   .submit--subscribe {
@@ -1555,7 +1555,7 @@ footer {
 	
 .mapa iframe {
     width: 100%;
-    max-height: 300px;
+    max-height: 400px;
   }
 }
 @media (min-width: 1920px) {
