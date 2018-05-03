@@ -1494,6 +1494,7 @@ footer {
 
   .header__menu .wrapper{
     position: absolute;
+    padding-top: 10px
   }
 
 	/*Fin  Cambios*/	
@@ -1608,6 +1609,7 @@ footer {
 
   .header__menu .wrapper{
     position: absolute;
+    padding-top: 10px
   }
 
 /*Fin  Cambios*/	
