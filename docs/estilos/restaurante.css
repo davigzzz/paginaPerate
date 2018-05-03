@@ -1586,6 +1586,32 @@ footer {
     width: 100%;
     max-height: 400px;
   }
+
+/* Cambios*/	
+	
+  .top__link {
+    display: none;
+  }
+
+  .top {
+    position: sticky;
+  }
+
+  .header__menu {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+  .header__menu .wrapper{
+    position: absolute;
+  }
+
+/*Fin  Cambios*/	
+	
 }
 @media (min-width: 1920px) {
   .container-fluid {
