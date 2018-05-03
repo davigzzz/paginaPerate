@@ -1472,11 +1472,32 @@ footer {
   .input--subscribe {
     font-size: 12px;
   }
+
+	/* Cambios*/	
 	
-.top__link {
+  .top__link {
     display: none;
   }
 
+  .top {
+    position: sticky;
+  }
+
+  .header__menu {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  .nav {
+    text-align: right;
+  }
+
+  .header__menu .wrapper{
+    position: absolute;
+  }
+
+	/*Fin  Cambios*/	
+	
   .menu__name,
   .menu__price {
     font-size: 11px;
