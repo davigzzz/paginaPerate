@@ -1433,6 +1433,10 @@ footer {
     padding-left: 20px;
   }
 
+  .mapa iframe {
+    width: 100%;  	
+  }
+	
   .submit--subscribe {
     margin-left: calc(20px - 4px);
   }
