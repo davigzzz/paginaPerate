@@ -1480,7 +1480,7 @@ footer {
   }
 
   .top {
-    position: sticky;
+    position: relative;
   }
 
   .header__menu {
@@ -1595,7 +1595,7 @@ footer {
   }
 
   .top {
-    position: sticky;
+    position: relative;
   }
 
   .header__menu {
