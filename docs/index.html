@@ -18,6 +18,7 @@
       });
 
   </script>
+  <script src="funciones_JS/parallax.js"></script>
 </head>
 
 <body ontouchstart>
@@ -37,8 +38,14 @@
             <div onclick="">
             <!-- ---------MENU------------ -->
             <p class="menu">Menú</p>
-            <nav>
+            <nav id="miMenu">
                 <ul>
+                    <li>
+                      <div onclick="">
+                        <button id="cerrar" class="rightPosition" width="20px" height="auto">&#9747;</button>
+                      </div>
+                    </li>
+                    
                     <li>
                         <a href="index.html">Inicio</a>
                     </li>
@@ -57,51 +64,113 @@
                 </ul>
             </nav>
 
-        </div> 
         </div>
-		
-		<div>
-		
-		<div class="carousel slide cuerpo" id="img-carousel" data-ride="carousel">
-                    <!-- Indicators-->
-                    <ol class="carousel-indicators">
-                      <li class="active" data-target="#img-carousel" data-slide-to="0"></li>
-                      <li data-target="#img-carousel" data-slide-to="1"></li>
-                      <li data-target="#img-carousel" data-slide-to="2"></li>
-                    </ol>
-                    <!-- Wrapper for slides-->
-                    <div class="carousel-inner" role="listbox">
-                      <div class="item active"><img src="https://beautimour.com/wp-content/uploads/2018/04/pexels-photo-380769.jpeg" alt=""/>
-                        <div class="carousel-caption">
-                          <h2 class="animated  bounceInDown">¿ TIENES UNA IDEA?<h2>
-                          <p class="animated bounceInUp">Pérate, platiquemos primero y déjanos llevarla por el camino correcto.</p>
-                          <p class="animated bounceInUp"><a class="btn btn-transparent btn-rounded btn-large" href="#">Learn More</a></p>
+        </div>
+
+        <div class="container sizeCarrusel ">
+          <div class="row">
+              <div class="col-lg-12 car">
+
+                      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                      <!-- Indicadores (círculos) -->
+                      <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+
+
+                      </ol>
+
+                      <!-- Contenedor para las imágenes -->
+                      <div class="carousel-inner ">
+
+                        <div class="item active">
+                        	<img src="https://beautimour.com/wp-content/uploads/2018/04/pexels-photo-572056.jpeg" alt="" style="width:100%; height: auto;"/>
+                          <div class="carousel-caption backgroundTransparent roundBorders">
+                            <h2 class="whiteShadow animated bounceInDown fontSixCaps">¿ TIENES UNA IDEA?</h2>
+                            <p class="whiteShadow animated  bounceInUp"><big>Pérate, platiquemos primero y déjanos llevarla por el camino correcto.</big></p>
+                            <p class="animated bounceInUp"><a class="btn btn-transparent btn-rounded btn-large" href="#">Learn More</a></p>
+                          </div>
                         </div>
-                      </div>
-                      <div class="item"><img src="https://beautimour.com/wp-content/uploads/2018/04/pexels-photo-459654.jpeg" alt=""/>
-                        <div class="carousel-caption">
-                          <h2 class="animated fadeInDown">PÉRATE TANTITO</h2>
-                          <p class="animated fadeInUp ">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                          <p class="animated fadeInUp"><a class="btn btn-transparent btn-rounded btn-large" href="#">Get Started</a></p>
+
+                        <div class="item">
+                        	<img src="https://beautimour.com/wp-content/uploads/2018/04/pexels-photo-459654.jpeg" alt="Estacionamiento" style="width:100%; height: auto;"/>
+                          <div class="carousel-caption backgroundTransparent roundBorders">
+                            <h2 class="whiteShadow animated fadeInDown fontSixCaps">"Robo a vehículo"</h2>
+                            <p class="whiteShadow animated fadeInUp"><big>Si fue víctima de alguna sustracción de cierto objeto que se hallaba dentro o fuera del vehículo estacionado.</big></p>
+                            <p class="animated fadeInUp"><a class="btn btn-transparent btn-rounded btn-large" href="#">Learn More</a></p>
+                          </div>
                         </div>
-                      </div>
-                      <div class="item"><img src="https://beautimour.com/wp-content/uploads/2018/04/pexels-photo-572056.jpeg" alt=""/>
-                        <div class="carousel-caption">
-                          <h2 class="animated fadeInDown">..PÉRATE</h2>
-                          <p class="animated fadeInDown">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
-                          <p class="animated fadeInRight"><a class="btn btn-transparent btn-rounded btn-large" href="#">Download Now!</a></p>
+
+                        <div class="item">
+                        	<img src="https://beautimour.com/wp-content/uploads/2018/04/pexels-photo-572056.jpeg" alt="Edificio T, PB" style="width:100%; height: auto;"/>
+                          <div class="carousel-caption backgroundTransparent roundBorders">
+                            <h2 class="whiteShadow animated bounceInDown fontSixCaps">"Robo a instalación"</h2>
+                            <p class="whiteShadow animated fadeInDown"><big>Si fue víctima de alguna sustracción de cierto equipo o material de algún inmueble (laboratorios, auditorios, talleres o cubículos).</big></p>
+                            <p class="animated fadeInDown"><a class="btn btn-transparent btn-rounded btn-large" href="#">Learn More</a></p>
+                          </div>
                         </div>
-                      </div>
+
+
+                        <div class="item">
+                        	<img src="https://beautimour.com/wp-content/uploads/2018/04/pexels-photo-572056.jpeg" alt="Entrada 2, UAM-A" style="width:100%; height: auto;"/>
+                          <div class="carousel-caption backgroundTransparent roundBorders">
+                            <h2 class="whiteShadow animated fadeInDown fontSixCaps">"Bloqueo"</h2>
+                            <p class="whiteShadow animated bounceInUp"><big>Si miembros de la comunidad o personas externas impidan el acceso ya sea a algún edificio, pasillo o acceso a la unidad.</big></p>
+                            <p class="animated bounceInUp"><a class="btn btn-transparent btn-rounded btn-large" href="#">Learn More</a></p>
+                          </div>
+                        </div>
+
+
+                      <!-- Controles para desplazar a la izquierda y a la derecha -->
+                      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
                     </div>
-                    <!-- Controls-->
-                    <a class="left carousel-control" href="#img-carousel" role="button" data-slide="prev">
-                        <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                        <span class="sr-only">Previous</span></a>
-                    <a class="right carousel-control" href="#img-carousel" role="button" data-slide="next">
-                        <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        <span class="sr-only">Next</span></a>
-                  </div>
-		</div>
+
+    		</div>
+        </div>
+        </div>
+        </div>
+
+        <!-- parallax-->
+        <div class="container main">
+          <div class="row">
+            <h2>Perate</h2>
+            <p>Ut sed mi quis lectus luctus posuere. Suspendisse eu elit turpis. Mauris semper odio purus, et efficitur dolor blandit et. Cras non commodo risus, et elementum lacus.</p>
+          </div>
+        </div>
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="http://materializecss.com/images/parallax1.jpg">
+          </div>
+          <div class="parallax-text">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+          </div>
+        </div>
+        <div class="container main">
+          <div class="row">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+            <p>Maecenas accumsan tincidunt leo nec vehicula. Ut sed mi quis lectus luctus posuere. Suspendisse eu elit turpis. Mauris semper odio purus, et efficitur dolor blandit et. Cras non commodo risus, et elementum lacus.</p>
+          </div>
+        </div>
+        
+        <div class="parallax-container">
+          <div class="parallax">
+            <img src="http://materializecss.com/images/parallax2.jpg">
+        
+          </div>
+        
+          <div class="parallax-text">
+            <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+          </div>
+        </div>
 
         <footer>
 <div class="container">
