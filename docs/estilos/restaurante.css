@@ -1434,7 +1434,8 @@ footer {
   }
 
   .mapa iframe {
-    width: 100%;  	
+    width: 100%;
+    max-height: 400px;
   }
 	
   .submit--subscribe {
