@@ -1,0 +1,110 @@
+.contenedor{
+    margin: 0.1rem;
+}
+
+.contorno{
+    display: inline-block;
+    padding: 30px;
+    line-height: 100%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 2em;    
+    }
+
+    .zoom {        
+        transition: transform .8s; /* Animation */
+        width: 200px;
+        height: 200px;
+        margin: 0 auto;
+    }
+    
+
+
+.contenedor .row:nth-child(1) .col-lg-12 .zoom:hover{
+    transform: scale(2.1) translateY(15px);
+}
+
+.contenedor .row:nth-child(2) .col-lg-12 .zoom:hover{
+    transform: scale(1.9) translateY(35px);
+}
+
+.contenedor .row:nth-child(3) .col-lg-12 .zoom:hover{
+    transform: scale(1.9) translateY(35px);
+}
+
+
+    .zoom:hover .fas{
+        opacity: 0.2;
+    }
+
+    .zoom:hover .far{
+        opacity: 0.2;
+    }
+
+.fas{
+   color: rgba(85, 88, 86, 0.986);
+   border-radius: 50%;
+}
+
+.far{
+    color: rgba(85, 88, 86, 0.986);    
+}
+
+  
+.contorno:hover{
+    background-color: none;
+    background-size: cover;
+}
+
+.espacio{
+    margin: 3rem;
+    margin-top: 11.5rem;
+}
+
+.espacio2{
+    margin-top: 1.5rem;
+    margin: 3rem;
+}
+
+.espacio3{
+    margin-top:1.5rem;
+    margin: 3rem;
+}
+
+
+/* CAMBIAMOS FONDO DEL CIRCUL (MARCAS) */
+.contenedor .row .col-lg-12 .zoom.espacio .contorno:hover:nth-child(1){
+    background-image: url("https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/14717322_982910751836959_1278512058979558507_n.png?_nc_cat=0&_nc_eui2=v1%3AAeGGFo0J-75rl47khbYZDLoSsOugmTkgVMCHOr7z1FFhZSfACewSqIXCcLmUHF7hgi-uv2Y23YrERCidEzz4UFzmgufD_FGSWIIHBASzur4WNA&oh=eb28d90ea548b40f5863a33e4b86109a&oe=5B5FF202");
+}
+
+
+.contenedor .row .col-lg-12 .zoom.espacio .contorno:hover:nth-child(2){
+    background-image: url('https://picsum.photos/200/300?image=1081');
+  }
+
+  .contenedor .row .col-lg-12 .zoom.espacio .contorno:hover:nth-child(3) {
+    background-image: url('https://picsum.photos/200/300?image=1080');
+  }
+
+p{
+    margin-bottom: 13rem;
+    color: antiquewhite;
+}
+
+
+/*CAMBIAR FONDO DEL ROW*/
+
+.contenedor .row:nth-child(1){
+    background-image: url("https://scontent.fmex11-2.fna.fbcdn.net/v/t1.0-9/27072905_1415656518562378_2254207805936646229_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeEPWjXI3PfbOVy2uq72wAqEDWqkRPDrjG_JOGMfWlX824EZGVLbZQUuYJJQLPbwTl2_1e_paPxQtGq4kDEeIMTvgugQGk2TwZ6juGvY5Ka6wg&oh=448148707967af9136e3849c7d0123f5&oe=5B8C9DC5");
+}
+
+.contenedor .row:nth-child(2){
+    background-image: url("https://scontent.fmex11-2.fna.fbcdn.net/v/t31.0-8/27173273_1773857635968293_5704856445640332747_o.jpg?_nc_cat=0&_nc_eui2=v1%3AAeHeRazqtf9x3R53xFNjbeJut_zCGPb1cXM2c33ZNK1Wf0ZiJjUzXqyGZQAqJrNbHORFl_wZz2mQjCgiQ2WH-rSxjl2gPSQzWRlNXVJuGyxbiA&oh=9271eb5efcfd491291f4e1f57ee84023&oe=5B90446E");
+}
+
+.contenedor .row:nth-child(3){
+    background-image: url("https://scontent.fmex11-2.fna.fbcdn.net/v/t1.0-9/27072905_1415656518562378_2254207805936646229_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeEPWjXI3PfbOVy2uq72wAqEDWqkRPDrjG_JOGMfWlX824EZGVLbZQUuYJJQLPbwTl2_1e_paPxQtGq4kDEeIMTvgugQGk2TwZ6juGvY5Ka6wg&oh=448148707967af9136e3849c7d0123f5&oe=5B8C9DC5");
+}
