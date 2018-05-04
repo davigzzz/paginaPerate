@@ -1408,6 +1408,10 @@ footer {
     margin-left: calc(20px - 4px);
   }
 	
+  .home {
+    background-size: percentage;
+  }
+	
   .home__wrapper {
     top: calc(40% + (60px / 2));
   }
