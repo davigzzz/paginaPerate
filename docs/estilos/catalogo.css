@@ -122,4 +122,8 @@ p{
     .contenedor .row:nth-child(3) .col-lg-12 .zoom:hover{
         transform: scale(1.6) translateY(35px) translateX(-10px);
     }
+    
+    .zoom {        
+        transition: transform .5s;
+        }
 }
