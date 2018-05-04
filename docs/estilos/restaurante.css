@@ -877,100 +877,7 @@ body .parallax {
   background-color: #000;
 }
 
-.reviews__quote {
-  display: block;
-  width: 18px;
-  height: 16px;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.carousel-control-next,
-.carousel-control-prev {
-  width: 17.5%;
-  opacity: 1;
-}
-
-.carousel-control-next:focus,
-.carousel-control-prev:focus {
-  opacity: 1;
-}
-
-.carousel-control-next:hover,
-.carousel-control-prev:hover {
-  opacity: .7;
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-  position: absolute;
-  top: 5%;
-  width: 7px;
-  height: 11px;
-}
-
-.carousel-control-prev-icon {
-  background: url("http://www.jamesarc.com/work/steakville/assets/img/sprites-reviews.png") 0 0;
-}
-
-.carousel-control-next-icon {
-  background: url("http://www.jamesarc.com/work/steakville/assets/img/sprites-reviews.png") -7px 0;
-}
-
-.carousel-indicators li {
-  width: 5px;
-  max-width: 5px;
-  height: 5px;
-  border: 1px solid #e4bb7a;
-  margin-right: 13px;
-  margin-right: 13px;
-  background-color: transparent;
-}
-
-.carousel-indicators .active {
-  background-color: #e4bb7a;
-}
-
-.carousel--reviews {
-  padding-bottom: 65px;
-  margin-top: 50px;
-}
-
-.review__item {
-  margin-right: 17.5%;
-  margin-left: 17.5%;
-}
-
-.review__desc {
-  color: #fff;
-  line-height: 1.5625;
-}
-
-.review__desc,
-.review__position {
-  font-family: 'Comfortaa';
-  font-size: .75em;
-}
-
-.review__name,
-.review__position {
-  display: block;
-}
-
-.review__name {
-  margin-top: 45px;
-  font-family: 'Poiret One',Arial, Helvetica, sans-serif;
-  font-size: .8em;
-  font-weight: 700;
-  letter-spacing: .12em;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-.review__position {
-  margin-top: 15px;
-  color: #e4bb7a;
-}
 
 /*------------------------------------*\
 	MAP
@@ -997,7 +904,7 @@ body .parallax {
 }
 
 .mapa iframe {
-	width: 60%;
+	width: 70%;
 	max-height: 600px;
 }
 
@@ -1066,6 +973,7 @@ footer {
 }
 
 .disclaimer{
+  text-align: center;
   font-family: 'Comfortaa';
   margin-top: 40px;
   margin-right: 17.5%;
@@ -1322,10 +1230,6 @@ footer {
   .form--subscribe {
     margin-top: 30px;
   }
-	
-.top__link {
-    display: none;
-  }
 
   .header__menu {
     top: 0;
@@ -1438,10 +1342,10 @@ footer {
   }
 
   .mapa iframe {
-    width: 100%;
-    max-height: 400px;
+  	width: 100%;
+  	max-height: 300px;
   }
-	
+
   .submit--subscribe {
     margin-left: calc(20px - 4px);
   }
@@ -1450,11 +1354,6 @@ footer {
 @media (max-width: 575px) {
   body {
     font-size: 12px;
-  }
-	
-.container-fluid {
-    padding-right: 3px;
-    padding-left: 3px;
   }
 
   .home span,
@@ -1473,8 +1372,6 @@ footer {
     font-size: 12px;
   }
 
-	/* Cambios*/	
-	
   .top__link {
     display: none;
   }
@@ -1497,8 +1394,11 @@ footer {
     padding-top: 10px
   }
 
-	/*Fin  Cambios*/	
-	
+
+  .scroll-down {
+    display: none;
+  }
+
   .menu__name,
   .menu__price {
     font-size: 11px;
@@ -1582,38 +1482,6 @@ footer {
   .submit--subscribe {
     margin-top: 20px;
   }
-	
-.mapa iframe {
-    width: 100%;
-    max-height: 400px;
-  }
-
-/* Cambios*/	
-	
-  .top__link {
-    display: none;
-  }
-
-  .top {
-    position: relative;
-  }
-
-  .header__menu {
-    position: relative;
-    background-color: rgba(0, 0, 0, 0.9);
-  }
-
-  .nav {
-    text-align: right;
-  }
-
-  .header__menu .wrapper{
-    position: absolute;
-    padding-top: 10px
-  }
-
-/*Fin  Cambios*/	
-	
 }
 @media (min-width: 1920px) {
   .container-fluid {
