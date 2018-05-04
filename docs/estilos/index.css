@@ -335,7 +335,22 @@ text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
   background: #38AA79;
   color: #fff;
 
+.size{
+  height: auto;
+  width: 150px;
+  padding: 5%;
 }
+.sizeImg{
+  height: auto;
+  width: 200px;
+  border-radius: 50%;
+  padding: 10%;
+}
+
+.pad{
+  padding: 5%;
+}
+
 .padd{
   padding-left: 5%;
 }
