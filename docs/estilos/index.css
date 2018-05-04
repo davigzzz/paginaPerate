@@ -342,6 +342,7 @@ img.sizeImg {
 }
 img.sizeUser {
   width: 250px;
+  padding-bottom: 10%;
 }
 
 .pad {
