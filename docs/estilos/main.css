@@ -3,6 +3,9 @@ html {
   position: relative; min-height: 100%;
 }
 
+.container {
+  width: 100%;
+}
 
 *{
   margin: 0;
