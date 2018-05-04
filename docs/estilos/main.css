@@ -34,9 +34,6 @@ header
 }
 
 
-.container {
-  width: 100%;
-}
 .border-animation {
   --border-width: 0.1em;
   --animation-speed: 0.5s;
