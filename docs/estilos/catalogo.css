@@ -11,9 +11,35 @@
     background-color: black;
     color: white;
     text-align: center;
-    font-size: 2em;    
+    font-size: 2em;  
+    background-image: none;  
     }
 
+    .contorno2{
+        display: inline-block;
+        padding: 30px;
+        line-height: 100%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        text-align: center;
+        font-size: 2em;  
+        background-image: none;  
+        }
+
+        .contorno3{
+            display: inline-block;
+            padding: 30px;
+            line-height: 100%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-size: 2em;  
+            background-image: none;  
+            }
     .zoom {        
         transition: transform .8s; /* Animation */
         width: 200px;
@@ -54,10 +80,7 @@
 }
 
   
-.contorno:hover{
-    background-color: none;
-    background-size: cover;
-}
+
 
 .espacio{
     margin: 3rem;
@@ -69,25 +92,25 @@
     margin: 3rem;
 }
 
-.espacio3{
-    margin-top:1.5rem;
-    margin: 3rem;
-}
-
 
 /* CAMBIAMOS FONDO DEL CIRCUL (MARCAS) */
-.contenedor .row .col-lg-12 .zoom.espacio .contorno:hover:nth-child(1){
+.contorno:hover{
+    background-color: none;
+    background-size: cover;
     background-image: url("https://scontent.fmex5-1.fna.fbcdn.net/v/t1.0-9/14717322_982910751836959_1278512058979558507_n.png?_nc_cat=0&_nc_eui2=v1%3AAeGGFo0J-75rl47khbYZDLoSsOugmTkgVMCHOr7z1FFhZSfACewSqIXCcLmUHF7hgi-uv2Y23YrERCidEzz4UFzmgufD_FGSWIIHBASzur4WNA&oh=eb28d90ea548b40f5863a33e4b86109a&oe=5B5FF202");
 }
 
 
-.contenedor .row .col-lg-12 .zoom.espacio .contorno:hover:nth-child(2){
-    background-image: url('https://picsum.photos/200/300?image=1081');
-  }
+.contorno2:hover{
+    background-image: url("doge.jpg");
+    background-size: cover;
+}
 
-  .contenedor .row .col-lg-12 .zoom.espacio .contorno:hover:nth-child(3) {
-    background-image: url('https://picsum.photos/200/300?image=1080');
-  }
+.contorno3:hover{
+    background-color: none;
+    background-size: contain;
+    background-image: url("https://scontent.fmex11-2.fna.fbcdn.net/v/t1.0-9/30124873_1706088422804352_799582579410392223_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeFnXdPYFN50ZJlrmQc3HFj16QHX-7pBMfA2d-fegMiIdqMi5l5jfqnR8j2E0hyrpS0CK4SEBrGFQXY2ULnqiiZsr0j_ajjvNIEYE9HJsqvodw&oh=db28cd7992e6192b097dd9db0e2d1eef&oe=5B92A2F3");
+}
 
 p{
     margin-bottom: 13rem;
@@ -110,6 +133,7 @@ p{
 }
 
 /*MEDIA QUERIES */
+
 @media only screen and (max-width: 600px) {
     .contenedor .row:nth-child(1) .col-lg-12 .zoom:hover{
         transform: scale(1.79) translateY(15px);
@@ -122,7 +146,7 @@ p{
     .contenedor .row:nth-child(3) .col-lg-12 .zoom:hover{
         transform: scale(1.6) translateY(35px) translateX(-10px);
     }
-    
+
     .zoom {        
         transition: transform .5s;
         }
