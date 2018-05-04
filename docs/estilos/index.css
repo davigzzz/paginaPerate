@@ -336,14 +336,11 @@ text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
   color: #fff;
 
 .sizeImg {
-  heigth: auto;
   width: 150px;
   padding: 5%;
 }
 .sizeUser {
-  heigth: auto;
   width: 200px;
-  border-radius: 50%;
   padding: 10%;
 }
 
