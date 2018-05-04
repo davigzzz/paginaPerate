@@ -27,7 +27,6 @@ body {
   font-size: 16px;
   background: #FFF;
   color: rgb(95, 25, 25);
-  margin: 0 auto 100px; /* El inferior es igual al alto del footer */
 }
 
 
