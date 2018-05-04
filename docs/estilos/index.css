@@ -337,12 +337,12 @@ text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
 
 .size{
   height: auto;
-  width: 150px;
+  width: 70px;
   padding: 5%;
 }
 .sizeImg{
   height: auto;
-  width: 200px;
+  width: 100px;
   border-radius: 50%;
   padding: 10%;
 }
