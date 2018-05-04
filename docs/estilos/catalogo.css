@@ -108,3 +108,18 @@ p{
 .contenedor .row:nth-child(3){
     background-image: url("https://scontent.fmex11-2.fna.fbcdn.net/v/t1.0-9/27072905_1415656518562378_2254207805936646229_n.jpg?_nc_cat=0&_nc_eui2=v1%3AAeEPWjXI3PfbOVy2uq72wAqEDWqkRPDrjG_JOGMfWlX824EZGVLbZQUuYJJQLPbwTl2_1e_paPxQtGq4kDEeIMTvgugQGk2TwZ6juGvY5Ka6wg&oh=448148707967af9136e3849c7d0123f5&oe=5B8C9DC5");
 }
+
+/*MEDIA QUERIES */
+@media only screen and (max-width: 600px) {
+    .contenedor .row:nth-child(1) .col-lg-12 .zoom:hover{
+        transform: scale(1.79) translateY(15px);
+    }
+    
+    .contenedor .row:nth-child(2) .col-lg-12 .zoom:hover{
+        transform: scale(1.6) translateY(35px) translateX(-10px);
+    }
+    
+    .contenedor .row:nth-child(3) .col-lg-12 .zoom:hover{
+        transform: scale(1.6) translateY(35px) translateX(-10px);
+    }
+}
