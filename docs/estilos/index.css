@@ -335,11 +335,11 @@ text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
   background: #38AA79;
   color: #fff;
 
-.sizeImg {
+img.sizeImg {
   width: 150px;
   padding: 5%;
 }
-.sizeUser {
+img.sizeUser {
   width: 200px;
   padding: 10%;
 }
