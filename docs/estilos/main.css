@@ -378,10 +378,4 @@ nav:hover, nav:focus, nav a:active{
     }
 }
 
-@media screen and (max-width: 600px) {
-  .menu {
-    left: -17px;
-    top: 17%;
- 
-  }
-}
+
