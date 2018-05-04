@@ -1407,6 +1407,10 @@ footer {
   .nav__item:nth-child(n+2) {
     margin-left: calc(20px - 4px);
   }
+	
+.home__wrapper {
+    top: calc(50% + (60px / 2));
+  }
 
   .home h2 {
     white-space: normal;
