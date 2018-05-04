@@ -335,23 +335,23 @@ text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
   background: #38AA79;
   color: #fff;
 
-.size{
+.size {
   height: auto;
   width: 70px;
   margin: 10px;
 }
-.sizeImg{
+.sizeImg {
   height: auto;
   width: 100px;
   border-radius: 50%;
   margin: 10px;
 }
 
-.pad{
+.pad {
   padding: 5%;
 }
 
-.padd{
+.padd {
   padding-left: 5%;
 }
 .padd2{
