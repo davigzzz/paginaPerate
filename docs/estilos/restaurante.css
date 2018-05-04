@@ -973,6 +973,7 @@ footer {
 }
 
 .disclaimer{
+  width: 100%;
   text-align: center;
   font-family: 'Comfortaa';
   margin-top: 40px;
@@ -1407,13 +1408,13 @@ footer {
   .nav__item:nth-child(n+2) {
     margin-left: calc(20px - 4px);
   }
-	
-  .home {
-    background-size: percentage;
-  }
-	
+
   .home__wrapper {
     top: calc(40% + (60px / 2));
+  }
+
+  .home {
+    background-size: auto 100%;
   }
 
   .home h3 {
