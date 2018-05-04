@@ -338,13 +338,13 @@ text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
 .size{
   height: auto;
   width: 70px;
-  padding: 5%;
+  margin: 10px;
 }
 .sizeImg{
   height: auto;
   width: 100px;
   border-radius: 50%;
-  padding: 10%;
+  margin: 10px;
 }
 
 .pad{
