@@ -1408,11 +1408,16 @@ footer {
     margin-left: calc(20px - 4px);
   }
 	
-.home__wrapper {
-    top: calc(50% + (60px / 2));
+  .home__wrapper {
+    top: calc(40% + (60px / 2));
+  }
+
+  .home h3 {
+    font-size: 2rem;
   }
 
   .home h2 {
+    font-size: 3rem;
     white-space: normal;
     overflow: visible;
   }
