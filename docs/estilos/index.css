@@ -329,4 +329,10 @@ text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
   z-index: -1;
 }
 
+/*Color contact*/
+.panelContacto {
+  height: auto;
+  background: #38AA79;
+  color: #fff;
 
+}
