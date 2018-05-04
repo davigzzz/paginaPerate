@@ -27,12 +27,11 @@ text-align:center;
 
 
 .contenedor {
-    margin-left: 7%;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-gap: 3rem;
 
-    padding: 2rem 4rem 4rem;
+    padding: 2rem 2rem 4rem;
     top: 5rem;
   }
   .contenedor .wrapper {
