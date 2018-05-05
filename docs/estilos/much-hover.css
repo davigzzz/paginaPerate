@@ -1,4 +1,7 @@
-
+html{
+  margin: 0;
+  padding: 0;
+}
 
 body{
   background-image: url("img/fondo.png");
@@ -10,8 +13,9 @@ body{
   display: flex;
   flex-wrap: nowrap;
     justify-content: center;
-padding: 0px 0px 20px 20px;
+padding: 0px 0px 40px 40px;
 background: #EAB9B5;
+    box-shadow: 0 0 10px #000;
 }
 
 
@@ -143,8 +147,6 @@ text-align:center;
     height: 100%;
     width: 100%;
     position: absolute;
-    top: 0;
-    left: 0;
     background-image: url("https://s3.amazonaws.com/kichink/items_1698583_547724_0_20180221125054_b.jpg");
     background-size: cover;
     background-color: #373f51;
@@ -173,7 +175,7 @@ text-align:center;
 
   p{
     text-align: center;
-    left: 1rem;
+    left: -.5rem;
     padding: 1rem;
     color: #e21da7
   }
@@ -191,7 +193,6 @@ text-align:center;
     background-repeat: no-repeat;
     background-position: center;
   }
-
 
 
   .contenedor .card .fas {
@@ -215,7 +216,7 @@ text-align:center;
 .flex{
 width: 100%;
 display: flex;
-justify-content: center;
+justify-content: space-around;
 }
 .contenedor-redes-sociales2  {
   width: 100%
@@ -262,9 +263,8 @@ display: flex;
 .contenedor-redes-sociales2 ul li a:hover {
     transform: scale(1.2);
     z-index: 100;
-    animation-name: grande;
-    animation-duration: 3s;
-
+    transform: scaleY(10px);
+    transform: translateY(15px);
 /*  HACERLO DESPUES :v
 align-items: center;
     height: 100px;
@@ -296,23 +296,23 @@ transition: 2s;
 }
 
 .contenedor-redes-sociales2 ul li.facebook a:hover {
-    background: #3b5998;
+    background: rgb(59,89,152,0);
 }
 
 .contenedor-redes-sociales2 ul li.twitter a:hover {
-    background: #44ccf6;
+    background: rgb(68,204,246,0);
 }
 
 .contenedor-redes-sociales2 ul li.google-plus a:hover {
-    background: #da2d2e;
+    background: rgb(218,45,46,0);
 }
 
 .contenedor-redes-sociales2 ul li.menu a:hover {
-  background: #EAB9B5;
+  background: rgb(234,185,181,0);
 }
 
 
-@@keyframes grande {
+@keyframes grande {
 
   from{
     height: 48px;
@@ -324,5 +324,38 @@ transition: 2s;
 
   }
 
+}
+
+/* HOME */
+
+.home{
+  background: #000;
+  width: 100%;
+  align-items: center;
+  border-radius: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+
+.texthome{
+width: 50%;
+top:50%;
+font-size: 20px;
+color: #000;
+background: rgb(234,185,181,.15);
+text-align: justify;
+padding: 1em;
+margin-top: 1em;
+transition: all 1s ease-out;
+
+}
+
+.texthome:hover
+{
+  transition:  1s;
+box-shadow: 0px 0px 10px #EAB9B5;
+background: rgb(234,185,181,1);
+color: #999999;
 
 }
