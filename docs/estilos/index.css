@@ -338,11 +338,11 @@ text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
 
 img.sizeImg {
   width: 200px;
-  padding: 5%;
+  padding: 10%;
 }
 img.sizeUser {
   width: 250px;
-  padding-bottom: 10%;
+  padding-bottom: 8%;
 }
 
 .pad {
