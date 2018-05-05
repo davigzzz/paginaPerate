@@ -338,7 +338,7 @@ text-shadow: 3px 3px 5px #000000, 3px 3px 5px #000000;
 
 img.sizeImg {
   width: 200px;
-  padding-bottom: 10%;
+  padding: 5%;
 }
 img.sizeUser {
   width: 250px;
