@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="estilos/main.css"/>
   <link rel="stylesheet" href="estilos/index.css"/>
   <link rel="stylesheet" href="estilos/catalogo.css" />
+  <link rel="stylesheet" href="estilos/aos.css">
 
   <script>
       $(document).ready(function(){
@@ -24,6 +25,7 @@
 
 <body ontouchstart>
   <div class="container-fluid">
+    <!-- Encabezado -->
         <header class="row">
             <div class="col-lg-12">
                 <center>
@@ -34,7 +36,7 @@
             </div>
         </header>
       </div>
-
+<!-- AQUI EMPIEZA EL MENU -->
         <div class="cuerpo">
             <div onclick="">
             <!-- ---------MENU------------ -->
@@ -61,7 +63,7 @@
 
         </div>
         </div>
-
+<!-- CARRUSEL -->
         <div class="container sizeCarrusel ">
           <div class="row">
               <div class="col-lg-12 car">
@@ -151,6 +153,8 @@
           </div>
         </div>
         
+<!-- aqui empiezan las imagenes de nosotros -->
+
   <div class="container-fluid">
         <div class="container main">
           <div class="row ">
@@ -176,7 +180,9 @@
           <div class="row">
 
             <div class="col-lg-3">
+                <div class="circulito">
               <img src="img/user.png" class="sizeUser"/>
+            </div>
               <p><strong>David</strong></p>
                 <p>Web developer</p>
             </div>
@@ -200,13 +206,11 @@
         </div>
     </div>
         
-  
+  <!--EL CATALOGO EMPIEZA AQUÍ-->
 <div class="contenedor container-fluid">
-        
-       
-
         <div class="row ">
                     <div class="col-lg-6">
+                      <div  data-aos="fade-right" data-aos-duration="1000">
                     <div class="zoom espacio">
                         <div class="contorno">
                             <a href="much-hover.html">
@@ -214,10 +218,11 @@
                             </a>
                         </div>
                     </div>
-                </div>
-
+                  </div>
+                  </div>
+                
                 <div class="col-lg-6">
-                        <div class="espacio-texto">
+                        <div class="espacio-texto" data-aos="fade-left" data-aos-duration="1000">
                             <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo magni porro
                              laborum blanditiis dignissimos. Cum, deserunt doloremque quos dicta quaerat ducimus
@@ -231,17 +236,19 @@
 
         <div class="row">
             <div class="col-lg-6 col-lg-push-6">
+              <div data-aos="fade-left" data-aos-duration="1000">
                     <div class="zoom espacio">
                         <div class="contorno2">
                             <a href="carta.html">
                                 <i class="far fa-id-card fa-5x"></i>
                             </a>
                         </div>
+                      </div>
                     </div>
                    
             </div>
             <div class="col-lg-6 col-lg-pull-6">
-                    <div class="espacio-texto">
+                    <div class="espacio-texto" data-aos="fade-right" data-aos-duration="1000">
                         <p>
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maiores nemo magni porro
                          laborum blanditiis dignissimos. Cum, deserunt doloremque quos dicta quaerat ducimus
@@ -255,18 +262,18 @@
 
         <div class="row">
                 <div class="col-lg-6">
-                    <center>
+                  <div data-aos="fade-right" data-aos-duration="1000">
                         <div class="zoom espacio">
                             <div class="contorno3">
                                 <a href="restaurante.html">
                                     <i class="fas fa-utensils fa-5x"></i>
                                 </a>
+                              </div>
                             </div>
                         </div>
-                    </center>
                 </div>
                 <div class="col-lg-6">
-                        <div class="espacio-texto">
+                        <div class="espacio-texto" data-aos="fade-left" data-aos-duration="1000">
                             <p>
                             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit,
                              asperiores consectetur! Nam deleniti id perferendis. Culpa, eos cumque
@@ -358,6 +365,12 @@
         </div>
 
         </footer>
+
+
+        <script type="text/javascript" src="js/aos.js"></script>
+      <script type="text/javascript">
+        AOS.init();
+      </script>
 </body>
 
 </html>
