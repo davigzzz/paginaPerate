@@ -343,6 +343,7 @@ img.sizeImg {
 img.sizeUser {
   width: 250px;
   padding-bottom: 8%;
+  padding-top: 8%;
 }
 
 .pad {
