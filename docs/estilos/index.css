@@ -6,7 +6,7 @@
 .car h2 {font-size: 3.5vh;}
 .car h3 {font-size: 3vmin;}
 
-/*Button*/
+/*Boton de liga del carrusel*/
 .btn-transparent {
   background: transparent;
   color: #fff;
@@ -17,12 +17,12 @@
 }
 
 .btn-rounded {
-  border-radius: 70px;
+  border-radius: 80px;
 }
 
 .btn-large {
-  padding: 11px 45px;
-  font-size: 18px;
+  /*padding: 11px 45px;*/
+  font-size: 1.25em;
 }
 
 /*Change animation duration*/
