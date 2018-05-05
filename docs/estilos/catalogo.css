@@ -118,18 +118,26 @@
 
 .contenedor .row:nth-child(1){
     background-image: url("row1.png");
-    background-size: cover;
+    background-size: auto;
+    background-position-y: center;
 }
 
 
 .contenedor .row:nth-child(2){
     background-image: url('row2.png');
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: left;
 }
 
 .contenedor .row:nth-child(3){
+    background-color: #FEB954;
     background-image: url('row3.jpg');
-    background-size: cover;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
 }
 
 
@@ -165,26 +173,43 @@
 
 }
 
-@media only screen and (min-width: 768px) {
-    .contenedor .row{
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-    }
 
+@media only screen 
+and (min-width : 1224px) {
+    .contorno{
+        margin-left: 5rem;
+    }    
+
+    .espacio-texto{
+    margin-left: 10%;
+    margin-top: 25%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .contorno, .contorno3{
+        margin-left: 5rem;
+    }    
+
+    
+
+    .espacio-texto{
+    margin-left: 10%;
+    margin-top: 25%;
+    }
 
 }
 
 .espacio-texto{
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgba(138, 145, 142, 0.692);
-    height: 100%;
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 30%;
     border-radius: 1rem;
     transform: translateY(-10px);
+   
 }
 
 
