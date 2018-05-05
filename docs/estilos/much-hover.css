@@ -315,13 +315,13 @@ transition: 2s;
   color: white;
 }
 
+
 @keyframes grande {
 
   from{
     height: 48px;
 
   }
-
   to{
     height: 100px;
 
@@ -337,19 +337,20 @@ transition: 2s;
   align-items: center;
   border-radius: 20px;
   padding: 0;
-  margin: 0;
+  margin: 1em;
+  display: flex;
 }
 
 
 .texthome{
-width: 50%;
-top:50%;
+width: 100%;
+height: 100%;
 font-size: 20px;
+  border-radius: 20px;
 color: #000;
-background: rgb(234,185,181,.15);
+background: #000;
 text-align: justify;
 padding: 1em;
-margin-top: 1em;
 transition: all 1s ease-out;
 
 }
@@ -358,7 +359,7 @@ transition: all 1s ease-out;
 {
   transition:  1s;
 box-shadow: 0px 0px 10px #EAB9B5;
-background: rgb(234,185,181,1);
+background: #EAB9B5;
 color: #999999;
 
 }
