@@ -343,8 +343,12 @@ img.sizeImg {
 }
 img.sizeUser {
   width: 250px;
-  padding-bottom: 8%;
-  padding-top: 8%;
+  margin-bottom: 8%;
+  margin-top: 8%;
+  border-radius: 50%;
+  border-style: inset;
+  border-width: 20px;
+  border-color: #4EC693;
 }
 
 .pad {
