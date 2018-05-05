@@ -191,11 +191,9 @@
 .espacio-texto p{
     opacity: none;
     width: 100%;
-}
-
-p{
     color: white;
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: justify;
 }
+
