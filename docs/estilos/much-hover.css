@@ -296,21 +296,24 @@ transition: 2s;
 }
 
 .contenedor-redes-sociales2 ul li.facebook a:hover {
-    background: rgb(59,89,152,0);
+    background: #EAB9B5;
+    color: white;
 }
 
 .contenedor-redes-sociales2 ul li.twitter a:hover {
-    background: rgb(68,204,246,0);
+  background: #EAB9B5;
+  color: white;
 }
 
 .contenedor-redes-sociales2 ul li.google-plus a:hover {
-    background: rgb(218,45,46,0);
+  background: #EAB9B5;
+  color: white;
 }
 
 .contenedor-redes-sociales2 ul li.menu a:hover {
-  background: rgb(234,185,181,0);
+  background: #EAB9B5;
+  color: white;
 }
-
 
 @keyframes grande {
 
