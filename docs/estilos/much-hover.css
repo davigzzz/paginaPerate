@@ -412,6 +412,10 @@ body .parallax {
   .logo  {
     padding-top: 60px;
   }
+  
+  .home {
+    background-size: auto 100vh;
+  }
 
   .home__wrapper {
     top: calc(50% + 10px);
