@@ -417,9 +417,9 @@ body .parallax {
     padding-top: 60px;
   }
 
-  .home {
+  /*.home {
     background-size: auto 120vh;
-  }
+  }*/
 
   .home__wrapper {
     top: calc(50% + 30px);
@@ -441,9 +441,9 @@ body .parallax {
     padding-top: 60px;
   }
   
-  .home {
+  /*.home {
     background-size: auto 120vh;
-  }
+  }*/
 
   .home__wrapper {
     top: calc(50% + 10px);
