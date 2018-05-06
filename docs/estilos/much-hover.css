@@ -403,6 +403,30 @@ body .parallax {
 
 /* ----MEDIA QUERIES---- */
 
+@media (max-width: 767px) {
+
+  .header {
+    padding: 0px 0px 10px 0px;
+  }
+
+  .flex{
+    justify-content: space-between;
+  }
+
+  .logo  {
+    padding-top: 60px;
+  }
+
+  .home {
+    background-size: auto 120vh;
+  }
+
+  .home__wrapper {
+    top: calc(50% + 30px);
+  }
+
+}
+
 @media (max-width: 575px) {
 
   .header {
