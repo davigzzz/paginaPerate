@@ -408,6 +408,10 @@ body .parallax {
   .header {
     padding: 0px 0px 10px 0px;
   }
+  
+  .flex{
+    justify-content: space-between;
+  }
 
   .logo  {
     padding-top: 60px;
