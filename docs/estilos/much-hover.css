@@ -417,9 +417,10 @@ body .parallax {
     padding-top: 60px;
   }
 
-  /*.home {
-    background-size: auto 120vh;
-  }*/
+  body .parallax {
+    background-attachment: scroll;
+    background-size: auto;
+  }
 
   .home__wrapper {
     top: calc(50% + 30px);
@@ -441,9 +442,10 @@ body .parallax {
     padding-top: 60px;
   }
   
-  /*.home {
-    background-size: auto 120vh;
-  }*/
+  body .parallax {
+    background-attachment: scroll;
+    background-size: auto;
+  }
 
   .home__wrapper {
     top: calc(50% + 10px);
