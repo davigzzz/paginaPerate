@@ -1356,6 +1356,11 @@ footer {
   body {
     font-size: 12px;
   }
+	
+  body .parallax {
+    background-attachment: scroll;
+    background-size: auto;
+  }
 
   .home span,
   .button,
