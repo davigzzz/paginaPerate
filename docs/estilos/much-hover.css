@@ -21,7 +21,8 @@ main {
   flex-wrap: nowrap;
   justify-content: center;
   padding: 0px 0px 30px 0px;
-  background: #2b7097;
+  background: #eac5bb;
+  /* background: #2b7097; */
   box-shadow: 0px 0px 15px #000;
   z-index: 2;
 }
@@ -54,7 +55,7 @@ main {
     position: absolute;
     top: 0;
     height: 5px;
-    background: #2b7097;
+    background: #f8d4cb;
     box-shadow: 0 0 10px #000;
     z-index: 0;
 }
@@ -73,7 +74,7 @@ main {
 
 .contenedor-redes-sociales2 ul li a {
     position: relative;
-    background: #a4b6cc;
+    background: #aeaeae;
     width: 48px;
     text-align: center;
     color: #fff;
@@ -108,27 +109,27 @@ align-items: center;
     width: 1px;
     height: 1px;
     border: 24px solid transparent;
-    border-bottom: 24px solid #2b7097;
+    border-bottom: 24px solid #eac5bb;
     z-index: 0;
 }
 
 .contenedor-redes-sociales2 ul li.facebook a:hover {
-    background: #2b7097;
+    background: #eac5bb;
     color: white;
 }
 
 .contenedor-redes-sociales2 ul li.twitter a:hover {
-  background: #2b7097;
+  background: #eac5bb;
   color: white;
 }
 
 .contenedor-redes-sociales2 ul li.google-plus a:hover {
-  background: #2b7097;
+  background: #eac5bb;
   color: white;
 }
 
 .contenedor-redes-sociales2 ul li.menu a:hover {
-  background: #2b7097;
+  background: #eac5bb;
   color: white;
 }
 
@@ -143,42 +144,40 @@ align-items: center;
 
 /* ----HOME---- */
 
-body .parallax {
-  background-attachment: fixed;
-}
-
-.wrapper {
-  width: 100%;
-  max-width: 1920px;
-}
-
-.home {
-  position: relative;
-  width: 100%;
-  height: calc(100vh - 20px);
-  min-height: 480px;
-  background: url('https://s19.postimg.cc/414tp05qb/bluegirl.jpg') no-repeat center;
-  background-size: cover;
-  background-color: #000;
+.parallax-container {
   z-index: 1;
-}
-
-.home .wrapper {
   position: relative;
-  height: 100%;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: -webkit-flex;
+  display: -moz-flex;
+  -webkit-justify-content: center;
+  -webkit-align-items: center;
+  -moz-justify-content: center;
+  -moz-align-items: center;
 }
 
-.home__wrapper {
+.parallax {
   position: absolute;
-  top: calc(50% + (80px / 2));
+  top: calc(50% + (100px / 2));
   left: 50%;
+  min-height: 100%;
+  min-width: 100%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  z-index: -1;
 }
 
-.home h3 {
+.parallax-container img {
+  width: 100vw;
+}
+
+.parallax-container h3 {
   font-family: 'Poiret One', sans-serif;
   font-size: 35px;
   color: #fff;
@@ -188,7 +187,6 @@ body .parallax {
   -2px 2px 2px #383336,
   2px 2px 2px #666985;
 }
-
 
 /* ----ABOUT---- */
 
@@ -417,13 +415,19 @@ body .parallax {
     padding-top: 60px;
   }
 
-  body .parallax {
-    background-attachment: scroll;
-    background-size: auto;
+  .parallax-container img {
+    width: auto;
+    height: 120vh;
   }
 
-  .home__wrapper {
+  .parallax {
     top: calc(50% + 30px);
+  }
+
+  .parallax-container h3 {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
 }
@@ -433,7 +437,7 @@ body .parallax {
   .header {
     padding: 0px 0px 10px 0px;
   }
-  
+
   .flex{
     justify-content: space-between;
   }
@@ -441,14 +445,21 @@ body .parallax {
   .logo  {
     padding-top: 60px;
   }
-  
-  body .parallax {
-    background-attachment: scroll;
-    background-size: auto;
+
+  .parallax-container img {
+    width: auto;
+    height: 120vh;
   }
 
-  .home__wrapper {
+  .parallax {
+    text-align: right;
     top: calc(50% + 10px);
+  }
+
+  .parallax-container h3 {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
   }
 
 }
