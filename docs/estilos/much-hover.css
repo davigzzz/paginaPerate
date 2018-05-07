@@ -162,7 +162,7 @@ align-items: center;
 
 .parallax {
   position: absolute;
-  top: calc(50% + (100px / 2));
+  top: calc(50% + (80px / 2));
   left: 50%;
   min-height: 100%;
   min-width: 100%;
@@ -180,6 +180,7 @@ align-items: center;
 .parallax-container h3 {
   font-family: 'Poiret One', sans-serif;
   font-size: 35px;
+  text-align: center;
   color: #fff;
   text-shadow:
   -2px -2px 2px #383336,
@@ -421,11 +422,10 @@ align-items: center;
   }
 
   .parallax {
-    top: calc(50% + 30px);
+    top: 30%;
   }
 
   .parallax-container h3 {
-    text-align: center;
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -452,12 +452,10 @@ align-items: center;
   }
 
   .parallax {
-    text-align: right;
-    top: calc(50% + 10px);
+    top: 30%
   }
 
   .parallax-container h3 {
-    text-align: center;
     padding-left: 15%;
     padding-right: 15%;
   }
