@@ -81,7 +81,7 @@
     }
   }
   .card--text.is-clicked, .card:hover .card--text {
-    bottom: -10%;
+    bottom: -30%;
   }
   
   .text--container {
