@@ -285,7 +285,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
 }
 
 /*Solo en tablets y móvil*/
-@media screen and (min-width:768px) {
+@media only screen and (min-width:768px) {
   .component {
     display: none;
   }
