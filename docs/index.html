@@ -12,7 +12,9 @@
   <link rel="stylesheet" href="estilos/catalogo.css" />
   <link rel="stylesheet" href="estilos/aos.css">
   <link rel="stylesheet" href="estilos/nosotros.css">
-
+  <link rel="stylesheet" type="text/css" href="estilos/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="estilos/component1.css" />
+    <script src="js/modernizr-2.6.2.min.js"></script>
   <script>
       $(document).ready(function(){
           $('.carousel').carousel({
@@ -38,32 +40,24 @@
         </header>
       </div>
 <!-- AQUI EMPIEZA EL MENU -->
-        <div class="cuerpo">
-            <div onclick="">
-            <!-- ---------MENU------------ -->
-            <p class="menu">Menú</p>
-            <nav id="miMenu">
-                <ul>                    
-                    <li>
-                        <a href="index.html">Inicio</a>
-                    </li>
-                    <li>
-                        <a href="catalogo.html">Catálogo</a>
-                    </li>
-                    <li>
-                        <a href="#qualify">Servicios</a>
-                    </li>
-                    <li>
-                        <a href="#projects">Contacto</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Acerca</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
-        </div>
+<div class="component">
+  <!-- Start Nav Structure -->
+  <button class="cn-button" id="cn-button">+</button>
+  <div class="cn-wrapper" id="cn-wrapper">
+      <ul>
+        <li><a href="#"><span class="icon-picture"></span></a></li>
+        <li><a href="#"><span class="icon-headphones"></span></a></li>
+        <li><a href="#"><span class="icon-home"></span></a></li>
+        <li><a href="#"><span class="icon-facetime-video"></span></a></li>
+        <li><a href="#"><span class="icon-envelope-alt"></span></a></li>
+       </ul>
+  </div>
+  <div id="cn-overlay" class="cn-overlay"></div>
+  <!-- End Nav Structure -->
+</div>
+</div><!-- /container -->
+<script src="js/polyfills.js"></script>
+<script src="js/demo1.js"></script>
 <!-- CARRUSEL -->
         <div class="container sizeCarrusel ">
           <div class="row">
@@ -308,7 +302,7 @@
 
         <div class="row">
                 <div class="col-lg-6">
-                  <div data-aos="fade-down" data-aos-duration="1000">
+                  <div data-aos="fade-up" data-aos-duration="1000">
                         <div class="zoom espacio">
                             <div class="contorno3">
                                 <a href="restaurante.html">
@@ -319,7 +313,7 @@
                         </div>
                 </div>
                 <div class="col-lg-6">
-                        <div class="espacio-texto" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="espacio-texto" data-aos="fade-down" data-aos-duration="1000">
                             <p>
                             Si tu restaurante tiene buena presentación, los clientes llegarán. Lo mismo pasa con tu presencia
                             en línea, sin un buen diseño y presentación, tus posibles comensales se quedarán en posibles.
