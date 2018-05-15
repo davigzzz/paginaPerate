@@ -290,7 +290,7 @@ items should be rotated by x, minus (sum of angles - 180)2s (for this demo) */
     display: inline;
   }
 
-  @media only screen and (min-width:768px) {
+  @media only screen and (min-width:769px) {
   .component {
     display: none;
   }
