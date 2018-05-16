@@ -9,7 +9,37 @@
   position: relative
 }
 
+/*Mostras en tablets y móvil menu circular*/
+@media only screen and (max-width:992px) {
+  .component {
+    display: inline;
+  }
+  .cn-button {
+    display: inline;
+  }
+  .cn-wrapper {
+    display: inline;
+  }
+  .cn-overlay  {
+    display: inline;
+  }
+}
 
+/*Ocultar en escritorio menu circular*/
+  @media only screen and (min-width:993px) {
+    .component {
+      display: none;
+    }
+    .cn-button {
+      display: none;
+    }
+    .cn-wrapper {
+      display: none;
+    }
+    .cn-overlay  {
+      display: none;
+    }
+  }
 
 .csstransforms .cn-wrapper {
   font-size: 1em;
