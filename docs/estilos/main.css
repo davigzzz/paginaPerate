@@ -434,6 +434,7 @@ nav:hover, nav:focus, nav a:active{
 .nav--menu__link:link,
 .nav--menu__link:hover,
 .nav--menu__link:visited {
+  text-decoration: none;
   color: #ededed;
 }
 
