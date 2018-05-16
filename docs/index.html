@@ -27,7 +27,7 @@
 </head>
 
 <body ontouchstart>
-  <div class="container-fluid">
+  <div class="container-fluid" id="inicio">
     <!-- Encabezado -->
         <header class="row">
             <div class="col-lg-12">
@@ -37,9 +37,47 @@
                     </a>
                 </center>
             </div>
+		
+	<!-- Hamburger - Menu -->
+            <div class="menu js-toggle-nav">
+              <span class="menu__text d-none d-md-inline"></span>
+              <button class="hamburger hamburger--spin" type="button" aria-label="Menu" aria-controls="navigation">
+                <span class="hamburger__box">
+                  <span class="hamburger__inner"></span>
+                </span>
+              </button>
+            </div>
+
+        <!-- Navigation - Menu -->
+            <nav class="nav--menu">
+              <ul>
+                <li class="nav--menu__item">
+                  <a class="nav--menu__link js-nav" href="#inicio">Inicio</a>
+                </li>
+                <li class="nav--menu__item">
+                  <a class="nav--menu__link js-nav" href="#about">Acerca de</a>
+                </li>
+                <li class="nav--menu__item">
+                  <a class="nav--menu__link js-nav" href="#catalogo">Catálogo</a>
+                </li>
+                <li class="nav--menu__item">
+                  <a class="nav--menu__link js-nav" href="#service">Servicios</a>
+                </li>
+                <li class="nav--menu__item">
+                  <a class="nav--menu__link js-nav" href="#equipo">Nuestro equipo</a>
+                </li>
+                <li class="nav--menu__item">
+                  <a class="nav--menu__link js-nav" href="#footer">Contacto</a>
+                </li>
+              </ul>
+            </nav><!-- Navigation - Menu -->
+		
         </header>
       </div>
+	
+	
 <!-- AQUI EMPIEZA EL MENU -->
+	
 <div class="component">
   <!-- Start Nav Structure -->
   <button class="cn-button" id="cn-button">+</button>
@@ -58,6 +96,8 @@
 </div><!-- /container -->
 <script src="js/polyfills.js"></script>
 <script src="js/demo1.js"></script>
+	
+	
 <!-- CARRUSEL -->
         <div class="container sizeCarrusel ">
           <div class="row">
@@ -151,7 +191,7 @@
         </div>
         
 <!-- aqui empiezan las imagenes de nosotros -->
-<div class="centrado">Conoce al equipo</div>
+<div class="centrado" id="equipo">Conoce al equipo</div>
 <div class="container-fluid">
 <ul class="nosotros">
   <li class="card">
@@ -244,7 +284,7 @@
 
 </div>
   <!--EL CATALOGO EMPIEZA AQUÍ-->
-<div class="contenedor container-fluid">
+<div class="contenedor container-fluid" id="catalogo">
         <div class="row ">
                     <div class="col-lg-6">
                       <div  data-aos="zoom-in" data-aos-duration="1000">
@@ -342,7 +382,7 @@
         </div>
   
   <!-- Contacto -->
-  <div class="panelContacto container-fluid">
+  <div class="panelContacto container-fluid" id="contacto">
         <br><br>
         <center><h2>Contáctanos</h2>
         <p>¿No te hemos convencido? Pérate, nos encantaría saber de tus ideas para poder realizarlas. En Pérate estamos para ti y por ti.</p>
@@ -404,10 +444,14 @@
         </footer>
 
 
-        <script type="text/javascript" src="js/aos.js"></script>
-      <script type="text/javascript">
-        AOS.init();
-      </script>
+    <script type="text/javascript" src="js/aos.js"></script>
+    <script type="text/javascript">
+       AOS.init();
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/vendor.min.js"></script>
+    <script type="text/javascript" src="js/hamburgermenu.js"></script>
+	
 </body>
 
 </html>
