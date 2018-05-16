@@ -26,13 +26,13 @@
 	}
 	function openNav(){
 		open = true;
-	    button.innerHTML = "-";
+	    button.innerHTML = "<li class='fa'>&#xf00d;</li>";
 	    classie.add(overlay, 'on-overlay');
 	    classie.add(wrapper, 'opened-nav');
 	}
 	function closeNav(){
 		open = false;
-		button.innerHTML = "+";
+		button.innerHTML = "<li class='fa'>&#xf0c9;</li>";
 		classie.remove(overlay, 'on-overlay');
 		classie.remove(wrapper, 'opened-nav');
 	}
