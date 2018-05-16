@@ -35,6 +35,7 @@
 		button.innerHTML = "<li class='fa'>&#xf0c9;</li>";
 		classie.remove(overlay, 'on-overlay');
 		classie.remove(wrapper, 'opened-nav');
+		document.activeElement.blur();
 	}
 	document.addEventListener('click', closeNav);
 
