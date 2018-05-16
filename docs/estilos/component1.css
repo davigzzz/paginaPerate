@@ -74,7 +74,7 @@
   width: 4.5em;
   background-color: #000000;
   position: fixed;
-  left: 47.3%;
+  left: 47.5%;
   margin-left: -1.75em;
   bottom: -1.75em;
   border-radius: 50%;
@@ -85,7 +85,7 @@
 .cn-button:hover,
 .cn-button:active,
 .cn-button:focus {
-  color: #aa1010;
+  color: #42db34;
 }
 
 .csstransforms .cn-wrapper li {
